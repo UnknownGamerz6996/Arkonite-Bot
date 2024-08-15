@@ -1,43 +1,30 @@
 {
-  "name": "discord.js-bot-template",
+  "name": "v13musicbot",
   "version": "1.0.0",
-  "description": "basic bot template with command handler",
-  "main": "app.js",
-  "dependencies": {
-    "asynckit": "^0.4.0",
-    "callsites": "^3.1.0",
-    "combined-stream": "^1.0.8",
-    "delayed-stream": "^1.0.0",
-    "discord-api-types": "^0.22.0",
-    "discord.js": "^14.15.3",
-    "dot-prop": "^6.0.1",
-    "is-obj": "^2.0.0",
-    "lodash.isequal": "^4.5.0",
-    "mime-db": "^1.50.0",
-    "mime-types": "^2.1.33",
-    "node-fetch": "^3.2.10",
-    "ow": "^0.27.0",
-    "tr46": "^0.0.3",
-    "ts-mixer": "^6.0.0",
-    "tslib": "^2.3.1",
-    "type-fest": "^1.4.0",
-    "vali-date": "^1.0.0",
-    "webidl-conversions": "^3.0.1",
-    "whatwg-url": "^5.0.0",
-    "ws": "^7.5.5"
-  },
+  "description": "A Discord Music Bot built with latest Discord Voice Features",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:docker": "docker build -t ds-bot-template ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CappeDiem/Discord.js-bot-template.git"
+    "url": "github.com/Tomato6966/v13-music-bot"
   },
-  "author": "CappeDiem",
+  "keywords": [
+    "Music",
+    "Bot",
+    "Discord",
+    "Discord-jsv13",
+    "v13",
+    "js",
+    "nodejs"
+  ],
+  "author": "Tomato6966",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CappeDiem/Discord.js-bot-template/issues"
-  },
-  "homepage": "https://github.com/CappeDiem/Discord.js-bot-template#readme"
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "colors": "^1.4.0",
+    "discord.js": "^13.1.0",
+    "moment": "^2.29.1"
+  }
 }
