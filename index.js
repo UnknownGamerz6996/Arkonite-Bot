@@ -1,5 +1,5 @@
 const { Client } = require("discord.js");
-const clinet = new Client({ intents: ["Guilds"] });
+const client = new Client({ intents: ["Guilds"] });
 
 client.config = require("./config.json");
 
